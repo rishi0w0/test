@@ -4,7 +4,7 @@ export const IMAGES = {
 };
 
 export const MESSAGES = {
-  GIFT: 'Tap tap tap',
+  GIFT: 'Open the basket',
   FLOWERS: 'Happy 19th birthday !!'
 };
 
