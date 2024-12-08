@@ -7,28 +7,28 @@ export const config = {
     },
     {
       src: '/letterclosed.png',
-      alt: 'There seems to a letter inside',
-      text:'There seems to a letter inside'
+      alt: 'Oh there is a letter inside',
+      text:'Oh there is a letter inside'
     },
     {
       src: '/letteropen.png',
-      alt: 'crwaly writing',
-      text:'crwaly writing'
+      alt: 'The heart sticker is giving',
+      text:'The heart sticker is giving'
     },
     {
       src: '/lettertop.png',
-      alt: 'peel it away',
-      text: 'peel it away'
+      alt: 'lol, its a note',
+      text: 'lol, its a note'
     },
     {
       src: '/letter.png',
-      alt: 'oh a note',
+      alt: 'note',
       text: 'oh a note'
     },
     {
       src: '/asset.png',
       alt: 'there seems to smth else too',
-      text:'there seems to smth else too'
+      text:'AAAND there are flowers, HAPPY 19TH BIRTHDAY !!'
     }
   ],
   text: {
