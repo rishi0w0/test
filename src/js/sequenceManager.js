@@ -8,7 +8,17 @@ export function setupSequence(imageElement, textElement, sequences) {
       // Update image
       imageElement.src = currentSequence.src;
       imageElement.alt = currentSequence.alt;
-      textElement.textContent = currentSequence.text;
+      
+      // Update text with fade effect
+      textElement.style.opacity = '0';
+      setTimeout(() => {
+        imageElement.src = currentSequence.src;
+        imageElement.alt = currentSequence.alt;
+        imageElement.style.opacity = '1';
+        imageElement.style.opacity = '1';
+        textElement.textContent = currentSequence.text;
+        textElement.style.opacity = '1';
+      }, 250);
     };
   
     imageElement.addEventListener('click', updateSequence);
