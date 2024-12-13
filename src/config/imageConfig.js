@@ -13,17 +13,17 @@ export const config = {
     {
       src: '/letteropen.png',
       alt: 'The heart sticker is giving',
-      text:'The heart sticker is giving'
+      text:''
     },
     {
       src: '/lettertop.png',
       alt: 'lol, its a note',
-      text: 'lol, its a note'
+      text: 'There is a note in it...'
     },
     {
       src: '/letter.png',
       alt: 'note',
-      text: 'oh a note'
+      text: ''
     },
     {
       src: '/asset.png',
